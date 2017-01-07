@@ -1,5 +1,5 @@
 # Project Setup
-This file is a detailed description on how to setup this template.
+This file is a detailed description on how to setup this template. For updates on this project template, add a pull url to get updates on the "template" branch. 
 
 ## Project Structure
 
@@ -14,7 +14,6 @@ Project
 Add projects that are internal project to the main project in this folder.
 
 ## External
-
 Add projects that are external project to the main project in this folder.
 
 ## CPP Files
