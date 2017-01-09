@@ -1,3 +1,6 @@
 [submodule "CMake"]
 	path = CMake
 	url = https://github.com/EngineerN/CMake.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/EngineerN/Template_Scripts.git
