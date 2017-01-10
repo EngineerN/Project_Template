@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.5.0)
 
 project(Test)
 
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMake")
+
 set(PROJECT_EXTERNAL)
 
 foreach(PROJECT_EXTERNAL_ITEM ${PROJECT_EXTERNAL})
@@ -20,8 +22,6 @@ endforeach()
 
 #Bring the headers into the project
 include_directories(include)
-
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/CMake)
 
 #Bring the 
 file(GLOB SOURCES "src/*.cpp")
